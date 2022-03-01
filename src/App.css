@@ -40,3 +40,7 @@ select {
 .error {
   color: red;
 }
+
+.btn-primary {
+  margin-right: 15px;
+}
