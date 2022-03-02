@@ -21,6 +21,7 @@ function FromikControls(props) {
       return <CheckboxGroup {...rest} />;
     case "date":
       return <DatePicker {...rest} />;
+
     default:
       return null;
   }

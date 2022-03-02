@@ -81,7 +81,9 @@ function FromikContainer() {
           />
           <FromikControls control="date" label="Pick a date" name="birthDate" />
           <input className="btn btn-primary " type="reset" value="Reset" />
-          <button type="submit">Submit</button>
+          <button type="submit" disabled={!formik.isValid}>
+            Submit
+          </button>
         </Form>
       )}
     </Formik>
